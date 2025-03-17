@@ -21,7 +21,15 @@ function listaAmigos() {
     for(let agregarAmigo of amigos) {
         let agregaLi = document.createElement("li"); 
         agregaLi.textContent = agregarAmigo; 
-        lista.appendChild(agregaLi)
-        
+        lista.appendChild(agregaLi)   
+    }
+}
+
+function sortearAmigo() {
+    if (amigos.length === 0){
+        alert("No has agregado ningún amigo")
+    }else{
+        amigoSeleccionado = amigos[Math.floor(Math.random()*amigos.length)];
+        document.getElementById("resultado").innerHTML = amigoSeleccionado
     }
 }
