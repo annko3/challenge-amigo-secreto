@@ -10,7 +10,7 @@
 - `Lista de amigos`: Actualiza y muestra en pantalla los nombres agregados.
 - `Sortear de Amigo Secreto`: Selecciona un nombre aleatorio y lo muestra en pantalla
 
-## Autores
+## Autor
 
 | [<img src="https://avatars.githubusercontent.com/u/202341023?v=4" width=115><br><sub>Nicole Reyes</sub>](https://github.com/annko3) |
 | :---: | 
